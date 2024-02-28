@@ -62,7 +62,7 @@
                   name: checkName,
                   head_sha: context.sha,
                   status: 'completed',
-                  conclusion: 'success',
+                  conclusion: conclusion,
                   output: {
                     title: "Approval status",
                     summary: summary
